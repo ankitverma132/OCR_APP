@@ -1,0 +1,8 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+form button :hover{
+    color: indigo;
+}

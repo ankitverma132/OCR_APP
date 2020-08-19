@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+     crossorigin="anonymous"> 
+    <link rel="stylesheet" href="/style.css">
+    <title>Image To PDF Converter</title>
+</head>
+<body>
+    <h1>
+        <i class="far fa-address-book"></i>
+        Image To PDF
+    </h1>
+    <!-- Dont forget to use multipart/form-data if you are using multer -->
+    <form action="/upload/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="avatar" >
+        <button type="submit">Convert</button>
+    </form>
+    
+</body>
+</html>
