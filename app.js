@@ -78,7 +78,7 @@ app.get('/download', (req,res,) => {
 //Setting up our server
 //If we upload project on internet it
 //will automatically recognize the port
-const Port = 8500 || process.env.Port;
+const Port = process.env.Port || 8500;
 app.listen(Port, (err) => {
     if(err){
         console.log(`Error in setting up server on port ${Port}`);
